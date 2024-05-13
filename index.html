@@ -1,0 +1,197 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mainweb</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <video autoplay loop muted plays-inline class="bgvideo" src="videos/sea1.mp4" type="video/mp4"></video>
+<div class="wrapper">
+      <div class="header">
+        <nav>
+          <img class="logo" src="images/fradel travel.png" alt="logo">
+          <ul>
+            <li><a href="#top">HOME</a></li>
+            <li class="dropdown">
+              <a href="DESTINATIONS">DESTINATIONS <i class="submenu"></i></a>
+              <ul id="dropdown">
+                <li><a href="#ITALY">ITALY</a></li>
+                <li><a href="#SPAIN">SPAIN</a></li>
+                <li><a href="#FRANCE">FRANCE</a></li>
+                <li><a href="#GERMANY">GERMANY</a></li>
+              </ul>
+            </li>
+            <li><a href="mailto:email@example.com" class="email-link">CONTACT</a></li>
+            <li><a href="login.html">ADMIN</a></li>
+          </ul>
+        </nav>
+      </div>
+    <div class="main">
+      <h2 class="maintext">TRAVEL NOW</h2>
+      <div class="wrap">
+        <div class="button-container">    
+          <button class="button" onclick="location.href='#ITALY'">EXPLORE</button>
+        </div>   
+      </div>
+    </div>
+     <div class="sidebar1">
+      <h2 id="ITALY">Italy</h2>
+      <P class="Amalfi"> <span class="city">AMALFI</span> : Nestled along the stunning Amalfi Coast, it enchants with its scenic beauty, historic charm, and vibrant culture, offering serene beaches, picturesque cliffside villages, and delectable coastal cuisine.</P>
+      <P class="Florence"> <span class="city">FLORENCE</span> : Renowned as the birthplace of the Renaissance, Florence boasts awe-inspiring art, architecture, and cultural heritage, including the iconic Duomo, Uffizi Gallery, and charming cobblestone streets lined with artisan shops.</P>
+      <P class="Rome"> <span class="city">ROME</span> : an ancient marvel, beckons with its timeless allure. Home to iconic landmarks like the Colosseum and Vatican City, it intertwines history, culture, and spirituality seamlessly. Delight in its art, savor its culinary delights, and immerse yourself in the grandeur of a city that resonates across millennia.</P>
+      <h2 id="SPAIN">Spain</h2>
+      <P class="Madrid">MADRID <span class="city"></span> : The vibrant capital of Spain, Madrid exudes energy and charm with its world-class museums, lively plazas, stunning architecture, and unbeatable culinary scene, inviting visitors to immerse themselves in Spanish culture and vibrant city life.</P>
+      <P class="Barcelona"> <span class="city">Barcelona</span> : A city of art, architecture, and culture, Barcelona mesmerizes with its unique blend of Gothic and Catalan Modernism, vibrant street life, and beautiful beaches, offering a dynamic urban experience infused with creativity, history, and Mediterranean charm.</P>
+      <P class="Palma_de_Malorca"> <span class="city">Palma de Mallorca</span> : A Mediterranean paradise, Palma de Mallorca beckons with its sun-kissed beaches, historic landmarks, vibrant nightlife, and rich cultural heritage, offering a perfect blend of relaxation, adventure, and exploration on Spain's stunning Balearic Islands.</P>
+      <h2 id="FRANCE">France</h2>
+      <P class="Versailles"> <span class="city">Versailles</span> : Home to the opulent Palace of Versailles, this city showcases grandeur and splendor through its magnificent royal residence, sprawling gardens, and captivating history, offering a glimpse into France's royal past and extravagant lifestyle.</P>
+      <P class="Marseille"> <span class="city">Marseille</span> : A vibrant port city on the Mediterranean coast, Marseille captivates with its rich history, diverse culture, and breathtaking coastal scenery, along with a bustling Old Port filled with lively markets and seafood restaurants.</P>
+      <P class="Paris"> <span class="city">Paris</span> : The epitome of romance and elegance, Paris entices with its iconic landmarks like the Eiffel Tower, Louvre Museum, and charming streetside cafes, offering a timeless allure and endless opportunities for exploration.</P>
+      <h2 id="GERMANY">Germany</h2>
+      <P class="Frankfurt"> <span class="city">Frankfurt</span> : A dynamic metropolis at the heart of Europe, Frankfurt boasts a stunning skyline, historic charm, cultural diversity, and a thriving arts and culinary scene, serving as a gateway to Europe and a melting pot of modernity and tradition.</P>
+      <P class="Berlin"> <span class="city">Berlin</span> : A city of contrasts, Berlin pulses with creativity, history, and diversity, offering iconic landmarks, vibrant nightlife, eclectic neighborhoods, and a palpable sense of freedom, making it a magnet for artists, intellectuals, and adventurers from around the globe.</P>
+      <P class="Dresden"> <span class="city">Dresden</span> : Dubbed the "Florence of the Elbe," Dresden boasts stunning baroque architecture, cultural richness, and a captivating blend of historic and modern attractions, including the iconic Frauenkirche, Zwinger Palace, and vibrant Neustadt district.</P>
+    </div>
+    <div class="parent-container">
+    <div class="sidebar2">
+        <div class="slider">
+          <div class="slides">
+            <img class="slide" src="images/amalfi.jpg" alt="">
+            <img class="slide" src="images/florence.jpg" alt="">
+            <img class="slide" src="images/rome.jpg" alt="">
+            <button class="prev" onclick="prevSlide()">&#10094</button>
+            <button class="next" onclick="nextSlide()">&#10095</button>
+          </div>
+    </div>
+    </div>
+    <div class="sidebar2">
+        <div class="slider">
+          <div class="slides">
+            <img class="slide" src="images/madrid.jpg" alt="">
+            <img class="slide" src="images/barcelona.jpg" alt="">
+            <img class="slide" src="images/palma de mallorca.jpg" alt="">
+          </div>
+          <button class="prev" onclick="prevSlide()">&#10094</button>
+          <button class="next" onclick="nextSlide()">&#10095</button>
+         </div>
+    </div>
+    <div class="sidebar2">
+        <div class="slider">
+          <div class="slides">
+            <img class="slide" src="images/marseille.jpg" alt="">
+            <img class="slide" src="images/versailles.jpg" alt="">
+            <img class="slide" src="images/paris.jpg" alt="">
+          </div>
+          <button class="prev" onclick="prevSlide()">&#10094</button>
+          <button class="next" onclick="nextSlide()">&#10095</button>
+          </div>
+        </div>
+    <div class="sidebar2">
+        <div class="slider">
+          <div class="slides">
+            <img class="slide" src="images/frankfurt.jpg" alt="">
+            <img class="slide" src="images/berlin.jpg" alt="">
+            <img class="slide" src="images/dresden.jpg" alt="">
+          </div>
+          <button class="prev" onclick="prevSlide()">&#10094</button>
+          <button class="next" onclick="nextSlide()">&#10095</button>
+        </div>
+    </div>
+    </div>
+    <!-- <footer>
+     
+    </footer> -->
+    <footer class="footer">
+     
+      <ul class="social-icon">
+        <li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/media/set/?set=oa.1589484194698061&type=3">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="https://twitter.com/">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a></li>
+      </ul>
+
+
+      <ul class="menu">
+        <li class="rating"><a class="star" href="#">
+          <ion-icon name="star-outline"></ion-icon>
+          <li class="rating"><a class="star" href="#">
+            <ion-icon name="star-outline"></ion-icon>
+            <li class="rating"><a class="star" href="#">
+              <ion-icon name="star-outline"></ion-icon>
+              <li class="rating"><a class="star" href="#">
+                <ion-icon name="star-outline"></ion-icon>
+                <li class="rating"><a class="star" href="#">
+                  <ion-icon name="star-outline"></ion-icon>
+        
+  
+      </ul>
+      <p class="copyright">&copy;2021 Travel Now | All Rights Reserved</p>
+      <a class="TOP" href="#top"><ion-icon name="caret-up-outline"></ion-icon></a>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</div>
+  <script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
